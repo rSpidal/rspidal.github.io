@@ -52,19 +52,47 @@
       </div>
       <div class="photo-grid">
         <figure class="photo-card gaming-card">
-          <img src="pictures/DB71807A-9F7C-4A14-B4DB-F296DFFAC7CF_1_105_c.jpeg" alt="Gaming setup with a monitor, keyboard, controller, and mouse on a desk" loading="lazy">
+          <a class="photo-enlarge" href="#lightbox-gaming" aria-label="Enlarge gaming setup photo">
+            <img src="pictures/DB71807A-9F7C-4A14-B4DB-F296DFFAC7CF_1_105_c.jpeg" alt="Gaming setup with a monitor, keyboard, controller, and mouse on a desk" loading="lazy">
+          </a>
           <figcaption><span>At home</span><strong>Game time</strong></figcaption>
         </figure>
         <figure class="photo-card friends-card">
-          <img src="pictures/trackTeam.jpeg" alt="A group of Ithaca track teammates standing together outdoors" loading="lazy">
+          <a class="photo-enlarge" href="#lightbox-friends" aria-label="Enlarge track team friends photo">
+            <img src="pictures/trackTeam.jpeg" alt="A group of Ithaca track teammates standing together outdoors" loading="lazy">
+          </a>
           <figcaption><span>Good company</span><strong>Track team friends</strong></figcaption>
         </figure>
         <figure class="photo-card outdoors-card">
-          <img src="pictures/9D0C19E2-208F-41A1-9F9E-C55B72BFD173_1_105_c.jpeg" alt="People walking along a rocky trail beneath a wooded gorge" loading="lazy">
+          <a class="photo-enlarge" href="#lightbox-outdoors" aria-label="Enlarge outdoors photo">
+            <img src="pictures/9D0C19E2-208F-41A1-9F9E-C55B72BFD173_1_105_c.jpeg" alt="People walking along a rocky trail beneath a wooded gorge" loading="lazy">
+          </a>
           <figcaption><span>A moment outdoors</span><strong>Out and about</strong></figcaption>
         </figure>
       </div>
     </section>
+
+    <div class="lightbox" id="lightbox-gaming" role="dialog" aria-modal="true" aria-label="Enlarged gaming setup photo" tabindex="-1">
+      <a class="lightbox-backdrop" href="#interests" aria-label="Close enlarged photo"></a>
+      <div class="lightbox-view">
+        <a class="lightbox-close" href="#interests">Close <span aria-hidden="true">×</span></a>
+        <img src="pictures/DB71807A-9F7C-4A14-B4DB-F296DFFAC7CF_1_105_c.jpeg" alt="Gaming setup with a monitor, keyboard, controller, and mouse on a desk">
+      </div>
+    </div>
+    <div class="lightbox" id="lightbox-friends" role="dialog" aria-modal="true" aria-label="Enlarged track team friends photo" tabindex="-1">
+      <a class="lightbox-backdrop" href="#interests" aria-label="Close enlarged photo"></a>
+      <div class="lightbox-view">
+        <a class="lightbox-close" href="#interests">Close <span aria-hidden="true">×</span></a>
+        <img src="pictures/trackTeam.jpeg" alt="A group of Ithaca track teammates standing together outdoors">
+      </div>
+    </div>
+    <div class="lightbox" id="lightbox-outdoors" role="dialog" aria-modal="true" aria-label="Enlarged outdoors photo" tabindex="-1">
+      <a class="lightbox-backdrop" href="#interests" aria-label="Close enlarged photo"></a>
+      <div class="lightbox-view">
+        <a class="lightbox-close" href="#interests">Close <span aria-hidden="true">×</span></a>
+        <img src="pictures/9D0C19E2-208F-41A1-9F9E-C55B72BFD173_1_105_c.jpeg" alt="People walking along a rocky trail beneath a wooded gorge">
+      </div>
+    </div>
 
     <section class="track-section" id="track" aria-labelledby="track-title">
       <div class="track-copy">
